@@ -1,0 +1,32 @@
+bookstore{
+	display: block;
+	width:750px;
+	margin:0 auto;
+	background-color:#e6e6fa;
+
+}
+book{
+	display: block;
+	border:1px solid;
+	width:600px;
+	margin:20px auto;
+	background-color:#f5f5f5;
+	padding:10px;
+
+}
+title{
+	font:20px Tahoma;
+	display: block;
+}
+author{
+	display: block;
+	color:#c0c0c0;
+}
+year{
+	display: block;
+
+}
+price{
+	display: block;
+	font-weight: bold;
+}

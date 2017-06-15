@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="data.css"?>
+<bookstore>
+   <book category="CHILDREN">
+      <title>Гарри Поттер</title>
+      <author>Дж. К. Роулинг</author>
+      <year>2005</year>
+      <price>200</price>
+   </book>
+   <book category="ASTROLOGY">
+      <title>Природа пространства и времени</title>
+      <author>Стивен Уильям Хокинг, Роджер Пенроуз</author>
+      <year>1996</year>
+      <price>220</price>
+   </book>
+   <book category="BIOLOGY">
+      <title>Центр циклона</title>
+      <author>Джон Лилли, Рам Дасс</author>
+      <year>1996</year>
+      <price>220</price>
+   </book>
+   <book category="BIOLOGY">
+      <title>Молекулярная биология клетки</title>
+      <author>Б. Албертс, Д. Брей, Дж. Льюис</author>
+      <year>1994</year>
+      <price>230</price>
+   </book>
+   <book category="SCIENCE">
+      <title>Стальная Крыса спасает мир</title>
+      <author> Гаррисон Гарри</author>
+      <year>1972</year>
+      <price>90</price>
+   </book>
+</bookstore>
