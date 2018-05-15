@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/володя/ontologies/2018/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/володя/ontologies/2018/4/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/володя/ontologies/2018/4/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Трапеция"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Параллелограмм"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#a*a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#(a+b)*0.5h"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*d1*d2*sin(α)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Прямоугольник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Равнобедренная_трапеция"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Квадрат"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Состоит_из_двух"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*a*h"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#a*b*sin(α)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#1Состоит_из_двух"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*c*h"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Четырехугольник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Элипс"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#3Состоит_из_двух"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#(a*a*√3)/4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Круг"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#a*h"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Окружность"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#a*b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ромб"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Равнобедренный_треугольник"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#(π*R*R*α)/360°"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#l*h"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Треугольник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Прямоугольный_треугольник"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#π*a*b"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#π*R*R"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Дельтоид"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#2Состоит_из_двух"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сектор_круга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Равносторонний_треугольник"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*a*b*sin(c)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#4Состоит_из_двух"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*b*b*sin(α)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#0.5*d1*d2"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Дельтоид"/>
+        <Class IRI="#Четырехугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Квадрат"/>
+        <Class IRI="#Прямоугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Квадрат"/>
+        <Class IRI="#Ромб"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Круг"/>
+        <Class IRI="#Окружность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Параллелограмм"/>
+        <Class IRI="#Четырехугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Прямоугольник"/>
+        <Class IRI="#Параллелограмм"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Прямоугольный_треугольник"/>
+        <Class IRI="#Треугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Равнобедренная_трапеция"/>
+        <Class IRI="#Трапеция"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Равнобедренный_треугольник"/>
+        <Class IRI="#Треугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Равносторонний_треугольник"/>
+        <Class IRI="#Равнобедренный_треугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ромб"/>
+        <Class IRI="#Дельтоид"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ромб"/>
+        <Class IRI="#Параллелограмм"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сектор_круга"/>
+        <Class IRI="#Круг"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Трапеция"/>
+        <Class IRI="#Четырехугольник"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Элипс"/>
+        <Class IRI="#Окружность"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Окружность"/>
+        <Class IRI="#Треугольник"/>
+        <Class IRI="#Четырехугольник"/>
+    </DisjointClasses>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Состоит_из_двух"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#1Состоит_из_двух"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#2Состоит_из_двух"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#3Состоит_из_двух"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#4Состоит_из_двух"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Состоит_из_двух"/>
+        <Class IRI="#Квадрат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#1Состоит_из_двух"/>
+        <Class IRI="#Прямоугольник"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#2Состоит_из_двух"/>
+        <Class IRI="#Ромб"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#3Состоит_из_двух"/>
+        <Class IRI="#Параллелограмм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#4Состоит_из_двух"/>
+        <Class IRI="#Дельтоид"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Состоит_из_двух"/>
+        <Class IRI="#Прямоугольный_треугольник"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#1Состоит_из_двух"/>
+        <Class IRI="#Прямоугольный_треугольник"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#2Состоит_из_двух"/>
+        <Class IRI="#Равнобедренный_треугольник"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#3Состоит_из_двух"/>
+        <Class IRI="#Треугольник"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#4Состоит_из_двух"/>
+        <Class IRI="#Треугольник"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#a*a"/>
+        <DataProperty IRI="#a*b"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#(a+b)*0.5h"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#0.5*a*h"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#(a*a*√3)/4"/>
+        <Class IRI="#Равносторонний_треугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#(a+b)*0.5h"/>
+        <Class IRI="#Равнобедренная_трапеция"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#(π*R*R*α)/360°"/>
+        <Class IRI="#Сектор_круга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*a*h"/>
+        <Class IRI="#Треугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*a*b*sin(c)"/>
+        <Class IRI="#Треугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*b*b*sin(α)"/>
+        <Class IRI="#Равнобедренный_треугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*c*h"/>
+        <Class IRI="#Прямоугольный_треугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*d1*d2"/>
+        <Class IRI="#Ромб"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#0.5*d1*d2*sin(α)"/>
+        <Class IRI="#Трапеция"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#a*a"/>
+        <Class IRI="#Квадрат"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#a*b"/>
+        <Class IRI="#Прямоугольник"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#a*h"/>
+        <Class IRI="#Параллелограмм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#a*b*sin(α)"/>
+        <Class IRI="#Дельтоид"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#l*h"/>
+        <Class IRI="#Равнобедренная_трапеция"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#π*R*R"/>
+        <Class IRI="#Круг"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#π*a*b"/>
+        <Class IRI="#Элипс"/>
+    </DataPropertyDomain>
+    <DisjointDataProperties>
+        <DataProperty IRI="#a*a"/>
+        <DataProperty IRI="#a*b"/>
+        <DataProperty IRI="#a*h"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Квадрат</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a^2</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
